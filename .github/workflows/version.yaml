@@ -3,8 +3,7 @@
 name: Get SemVer
 
 on:
-  pull_request:
-    types: [closed]
+  workflow_call:
 
 
 jobs:
