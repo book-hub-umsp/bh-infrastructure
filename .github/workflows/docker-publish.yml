@@ -23,6 +23,8 @@ env:
 
 jobs:
   build:
+    outputs:
+      version-value: ${{ steps.meta.outputs.tags }}
     runs-on: ubuntu-latest
     permissions:
       contents: read
