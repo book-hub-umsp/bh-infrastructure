@@ -1,0 +1,4 @@
+
+[submodule "migrations/main"]
+	path = migrations/main
+	url = https://github.com/book-hub-umsp/book-hub-api
